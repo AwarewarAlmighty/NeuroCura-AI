@@ -62,7 +62,7 @@ class MessageWidget(QListWidgetItem):
 class NeurocuraApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.api_key = "AIzaSyAADCQGKofN5oln979m0MOo_MZey9fPwwE"
+        self.api_key = os.getenv("API_KEY")
         self.message_history = []
         self.initUI()
 

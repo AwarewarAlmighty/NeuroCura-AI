@@ -2,6 +2,7 @@ import sys
 import os
 import json
 from datetime import datetime
+from dotenv import load_dotenv
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                              QTextEdit, QPushButton, QLabel, QTabWidget,
                              QListWidget, QListWidgetItem, QInputDialog, QMenu, 
@@ -281,12 +282,11 @@ Remember: Neurocura aims to support both general understanding and professional 
         except Exception as e:
             self.error.emit(str(e))
 
-# [Previous ChatSession and SessionManager classes remain the same]
 
 class NeurocuraApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.api_key = "AIzaSyAADCQGKofN5oln979m0MOo_MZey9fPwwE"
+        self.api_key = os.getenv('API_KEY')
         self.session_manager = SessionManager()
         self.current_session = None
         self.initUI()

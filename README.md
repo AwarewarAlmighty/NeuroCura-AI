@@ -8,7 +8,7 @@ Neurocura AI is a Windows-based AI assistant designed to provide supportive, evi
 •	[Installation](#installation)<br/>
 •	[Configuration](#configuration)<br/>
 •	[Usage](#usage)<br/>
-•	[Code Structure](#code_structure)<br/>
+•	[Code Structure](#codestructure)<br/>
 •	[License](#license)<br/>
 •	[Disclaimer](#disclaimer)<br/>
 

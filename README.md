@@ -3,14 +3,14 @@
 Neurocura AI is a Windows-based AI assistant designed to provide supportive, evidence-based information on neurological and cognitive health. The app is built using Python with PyQt6 for the graphical user interface and Google’s Generative AI for natural language responses.
 
 ## Table of Contents
-•	Overview<br/>
-•	Features<br/>
-•	Installation<br/>
-•	Configuration<br/>
-•	Usage<br/>
-•	Code Structure<br/>
-•	License<br/>
-•	Disclaimer<br/>
+•	[Overview](#overview)<br/>
+•	[Features](#features)<br/>
+•	[Installation](#installation)<br/>
+•	[Configuration](#configuration)<br/>
+•	[Usage](#usage)<br/>
+•	[Code Structure](#code_structure)<br/>
+•	[License](#license)<br/>
+•	[Disclaimer](#disclaimer)<br/>
 
 ## Overview
 Neurocura AI helps both healthcare professionals and general users:<br/>
